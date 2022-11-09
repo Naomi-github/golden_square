@@ -13,3 +13,6 @@ class Gratitudes
     return formatted
   end
 end
+
+
+
