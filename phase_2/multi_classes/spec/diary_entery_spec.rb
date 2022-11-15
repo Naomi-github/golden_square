@@ -1,4 +1,4 @@
-require "diary_entry"
+require "diary_entery"
 
 RSpec.describe DiaryEntry do
   it "returns word count of entry" do

@@ -1,5 +1,5 @@
 require "diary"
-require "diary_entry"
+require "diary_entery"
 
 RSpec.describe "integration" do
 
