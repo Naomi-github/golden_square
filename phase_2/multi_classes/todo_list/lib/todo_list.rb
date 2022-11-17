@@ -28,6 +28,7 @@ class TodoList
 
   def give_up!
     # Marks all todos as complete
+    p @incomplete
     @incomplete.each do |task|
       task.gsub!("TODO:", "DONE:")
       @completed << task

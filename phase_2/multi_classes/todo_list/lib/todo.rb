@@ -1,6 +1,7 @@
 class Todo
   def initialize(task) # task is a string
     # ...
+    @tasks
     @tasks = "TODO: #{task}"
   end
 
