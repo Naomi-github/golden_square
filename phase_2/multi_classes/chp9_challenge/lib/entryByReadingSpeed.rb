@@ -8,13 +8,7 @@ class EntryByReadingSpeed
 
   def selectEntry
     # Returns entry you can read based on time * wpm
-  # numberOfWords = @time * @wpm
-    # @diary.listOfEntries do |entry|
-    #   p entry
-  #   end
-    p @diary
-
-
-
+    @diary
+  end
 end
-end
+

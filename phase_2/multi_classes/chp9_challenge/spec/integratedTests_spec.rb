@@ -29,7 +29,6 @@ RSpec.describe 'integration' do
       diary = Diary.new
       diaryEntry = DiaryEntry.new("diary entry one")
       diary.add(diaryEntry)
-    #   readEntry = EntryByReadingSpeed.new(1,3,diary)
       expect(diary.selectEntry(1,3)).to eq "diary entry one"
     end
 
@@ -39,7 +38,6 @@ RSpec.describe 'integration' do
       diaryEntry2 = DiaryEntry.new("diary entry two is slightly longer than diary entry one")
       diary.add(diaryEntry)
       diary.add(diaryEntry2)
-    #   readEntry = EntryByReadingSpeed.new(1,12,diary)
       expect(diary.selectEntry(15,1)).to eq "diary entry two is slightly longer than diary entry one"
     end
   end
@@ -93,13 +91,4 @@ RSpec.describe 'integration' do
     end
   end
 end
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pri
+

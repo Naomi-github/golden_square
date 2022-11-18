@@ -26,4 +26,4 @@ class Contacts
     # returns the phone numbers in an array
     @phoneNumbers
   end
-end   
+end
